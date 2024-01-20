@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+/* style the header */
+ .header {
+    background-image: url(UN1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    text-align: center;
+    padding: 3%;
+    height: 16vh;
+    
+ }
+ 
+ .header h1 {
+    font-size:60px ; 
+ }
+
+ .text-sec {
+   color: rgb(191, 216, 238);
+   background-color: transparent;
+   backdrop-filter: blur(2px);
+   width: 50%;
+   margin: 0 0 2% 25%;
+   border: 2px solid black;
+   border-radius: 25px;
+   box-shadow: 2px 2px 2px 2px rgb(36, 37, 37);
+ 
+   
+ }
+ .text-sec h1, h2 {
+  text-shadow: 2px 2px 2px 2px black;
+  
+ }
+ .header img {
+  float: left;
+
+ }
+
+ .content {
+    height:auto;
+    background-color:rgb(119, 180, 242);
+    text-align: center;
+    padding: 4%;
+ }
+
+ .title-sec {
+   background-color: rgb(255, 255, 255);
+   width: 50%;
+   margin: 0 0 2% 25%;
+   border-radius: 25px;
+   box-shadow: 0 3px 3px 4px rgb(85, 86, 88);
+ }
+
+ /* style the text of the title-sec */
+ .content h1 {
+   color: rgb(19, 94, 224);
+   padding: 1%;
+   font-size: 35px;
+   margin-bottom: 2%;
+   text-align: center;
+ }
+ .content h2 {
+  margin-bottom: 2%;
+ }
+ .content p {
+   font-size: 23px;
+   margin-bottom: 3%;
+   text-align: c;
+ }
+
+   /* style the link button */
+ a {
+    margin-bottom: 2%;
+    background-color: rgb(54, 67, 244);
+    color: white;
+    padding: 15px 26px;
+    box-shadow: 0 3px 3px 3px  rgb(2, 8, 124);
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.5s;
+  
+ }
+    a:hover, a:active {
+    background-color: rgb(107, 84, 238);
+    transform: scale(1.05);
+ }
+
+ 
